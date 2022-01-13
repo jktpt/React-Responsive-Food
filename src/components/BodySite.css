@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&family=Shippori+Antique+B1&family=The+Nautigal:wght@700&display=swap');
+
+.imagesite{
+    width: 100%;
+    height: 93vh;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+p{
+    margin: 0;
+}
+.text-center-photo{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    cursor: pointer;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.text-center-photo:hover{
+    background-color: #fff;
+    color: black;
+    border: 3px solid black;
+    opacity: 0.8;
+}
+@media (max-width:1700px){
+    .imagesite{
+        height: 92.3vh;
+    }
+}
+
+@media (max-width:900px){
+    .text-center-photo{
+        position: absolute;
+        top: 45%;
+        left: 37%;
+    }
+}
+
+@media (max-width:400px){
+    .text-center-photo{
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        font-size: 25px;
+    }
+}

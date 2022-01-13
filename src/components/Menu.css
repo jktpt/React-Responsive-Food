@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&family=Shippori+Antique+B1&family=The+Nautigal:wght@700&display=swap');
+
+.menu-container{
+    width: 100%;
+    height: 80vh;
+    background-color: #4b140f;
+}
+.menu-text{
+   width: 100%;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text-menu{
+    border: 2px solid wheat;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 250px;
+    color: wheat;
+}
+
+/* เริ่มเนื้อหา */
+.menu-box{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.menu-block{
+    width: 350px;
+    height: 100%;
+    display: inline-block;
+    /* border: 2px solid wheat; */
+}
+.menu-box-newline{
+    margin-top: 60px;
+}
+.image-menu{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.text-block{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+}
+.block-space{
+    margin-left: 10%;
+}
+
+@media (max-width:1400px){
+    .menu-container{
+        height: 110vh;
+    }
+    .menu-box{
+        width: 50%;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        left: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .block-space{
+        margin: 0;
+    }
+}
+
+@media (max-width:900px){
+    .menu-container{
+        height: 200vh;
+    }
+    .menu-box{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .block-space{
+        margin: 0;
+    }
+    .menu-block{
+        margin-top: 20px;
+    }    
+}
+
+
+@media (max-height:790px){
+    .menu-container{
+        height: 220vh;
+    }
+}
+
+
+@media (max-height:760px){
+    .menu-container{
+        height: 250vh;
+    }
+}
+
+
+@media (max-height:670px){
+    .menu-container{
+        height: 250vh;
+    }
+}
+
+
+@media (max-height:580px){
+    .menu-container{
+        height: 300vh;
+    }
+}
+
+
+@media (max-height:535px){
+    .menu-container{
+        height: 350vh;
+    }
+}
